@@ -2390,6 +2390,9 @@ img {
 		<li class=" tsd-kind-variable tsd-parent-kind-external-module">
 			<a href="_grid_hooks_usepagingcache_d_.html#setcachedresponse" class="tsd-kind-icon">set<wbr>Cached<wbr>Response</a>
 		</li>
+		<li class=" tsd-kind-variable tsd-parent-kind-external-module">
+			<a href="_grid_hooks_usepagingcache_d_.html#tocachedresponse" class="tsd-kind-icon">to<wbr>Cached<wbr>Response</a>
+		</li>
 	</ul>
 </nav>
 <div class="container container-main">
@@ -2420,6 +2423,7 @@ img {
 							<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_grid_hooks_usepagingcache_d_.html#getquerypagingargs" class="tsd-kind-icon">get<wbr>Query<wbr>Paging<wbr>Args</a></li>
 							<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_grid_hooks_usepagingcache_d_.html#iscacheableresponse" class="tsd-kind-icon">is<wbr>Cacheable<wbr>Response</a></li>
 							<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_grid_hooks_usepagingcache_d_.html#setcachedresponse" class="tsd-kind-icon">set<wbr>Cached<wbr>Response</a></li>
+							<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_grid_hooks_usepagingcache_d_.html#tocachedresponse" class="tsd-kind-icon">to<wbr>Cached<wbr>Response</a></li>
 						</ul>
 					</section>
 				</div>
@@ -2433,7 +2437,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">Paging<wbr>Cache&lt;T&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="../interfaces/_grid_hooks_usepagingcache_d_.cacheentry.html" class="tsd-signature-type">CacheEntry</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/usePagingCache.d.ts:54</li>
+						<li>Defined in src/grid/hooks/usePagingCache.d.ts:60</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2469,7 +2473,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">clear<wbr>Cache<wbr>OnQuery<wbr>Context<wbr>Change<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>queryContextKey<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, previousKey<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, cache<span class="tsd-signature-symbol">: </span><a href="_grid_hooks_usepagingcache_d_.html#pagingcache" class="tsd-signature-type">PagingCache</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/usePagingCache.d.ts:113</li>
+						<li>Defined in src/grid/hooks/usePagingCache.d.ts:119</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2535,7 +2539,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">generate<wbr>Cache<wbr>Key<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>skip<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, take<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, queryContext<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">QueryContextSnapshot</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/usePagingCache.d.ts:80</li>
+						<li>Defined in src/grid/hooks/usePagingCache.d.ts:86</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2597,7 +2601,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Cached<wbr>Response<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>cacheKey<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, cache<span class="tsd-signature-symbol">: </span><a href="_grid_hooks_usepagingcache_d_.html#pagingcache" class="tsd-signature-type">PagingCache</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="../interfaces/_grid_hooks_usepagingcache_d_.cacheentry.html" class="tsd-signature-type">CacheEntry</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/usePagingCache.d.ts:90</li>
+						<li>Defined in src/grid/hooks/usePagingCache.d.ts:96</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2655,7 +2659,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Query<wbr>Context<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Query</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">QueryContextSnapshot</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/usePagingCache.d.ts:65</li>
+						<li>Defined in src/grid/hooks/usePagingCache.d.ts:71</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2701,7 +2705,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Query<wbr>Paging<wbr>Args<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Query</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-symbol">{ </span>skip<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>take<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/usePagingCache.d.ts:132</li>
+						<li>Defined in src/grid/hooks/usePagingCache.d.ts:138</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2754,13 +2758,13 @@ img {
 				<div class="tsd-signature tsd-kind-icon">is<wbr>Cacheable<wbr>Response<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>response<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DataResult</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/usePagingCache.d.ts:124</li>
+						<li>Defined in src/grid/hooks/usePagingCache.d.ts:130</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
 						<p>Checks whether a custom-binding response should be cached. The response must
-							carry a page-records collection and a numeric total count; failed responses
+							carry a page-records collection; the total count is optional (infinite scrolling) but, when present, must be numeric; failed responses
 							(the DataManager rejects its cache key on failure,
 							<code>react-data/src/manager.ts:949-953</code>) or malformed payloads must not be
 						cached.</p>
@@ -2770,7 +2774,7 @@ img {
 						<dd><p>The custom-binding response payload.</p>
 						</dd>
 						<dt>returns</dt>
-						<dd><p>true when the response carries page records and a numeric count.</p>
+						<dd><p>true when the response carries page records and a numeric or absent count.</p>
 						</dd>
 					</dl>
 				</div>
@@ -2802,7 +2806,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">set<wbr>Cached<wbr>Response<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>cacheKey<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, entry<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_hooks_usepagingcache_d_.cacheentry.html" class="tsd-signature-type">CacheEntry</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, cache<span class="tsd-signature-symbol">: </span><a href="_grid_hooks_usepagingcache_d_.html#pagingcache" class="tsd-signature-type">PagingCache</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/usePagingCache.d.ts:100</li>
+						<li>Defined in src/grid/hooks/usePagingCache.d.ts:106</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2852,6 +2856,57 @@ img {
 										</li>
 									</ul>
 									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module">
+				<a name="tocachedresponse" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagConst">Const</span> to<wbr>Cached<wbr>Response</h3>
+				<div class="tsd-signature tsd-kind-icon">to<wbr>Cached<wbr>Response<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>entry<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_hooks_usepagingcache_d_.cacheentry.html" class="tsd-signature-type">CacheEntry</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">DataResult</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/hooks/usePagingCache.d.ts:149</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Builds the payload returned on a cache hit. The original response (including
+						continuation-token fields) is replayed; <code>result</code>/<code>count</code> come from the entry.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>param</dt>
+						<dd><p>The cached entry.</p>
+						</dd>
+						<dt>returns</dt>
+						<dd><p>The response to hand back to the Grid.</p>
+						</dd>
+					</dl>
+				</div>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-siganture">
+							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable tsd-has-type-parameter">
+								<li class="tsd-signature tsd-kind-icon">&lt;T&gt;<span class="tsd-signature-symbol">(</span>entry<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_hooks_usepagingcache_d_.cacheentry.html" class="tsd-signature-type">CacheEntry</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DataResult</span></li>
+							</ul>
+							<ul class="tsd-descriptions">
+								<li class="tsd-description">
+									<h4 class="tsd-type-parameters-title">Type parameters</h4>
+									<ul class="tsd-type-parameters">
+										<li>
+											<h4>T</h4>
+										</li>
+									</ul>
+									<h4 class="tsd-parameters-title">Parameters</h4>
+									<ul class="tsd-parameters">
+										<li>
+											<h5>entry: <a href="../interfaces/_grid_hooks_usepagingcache_d_.cacheentry.html" class="tsd-signature-type">CacheEntry</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+										</li>
+									</ul>
+									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">DataResult</span></h4>
 								</li>
 							</ul>
 						</li>

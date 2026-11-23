@@ -2406,6 +2406,9 @@ img {
 			<a href="_grid_types_grid_interfaces_d_.gridmodules.html" class="tsd-kind-icon">Grid<wbr>Modules</a>
 			<ul>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_grid_interfaces_d_.gridmodules.html#adaptivemodule" class="tsd-kind-icon">Adaptive<wbr>Module</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_grid_interfaces_d_.gridmodules.html#aggregatemodule" class="tsd-kind-icon">Aggregate<wbr>Module</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
@@ -2542,6 +2545,7 @@ img {
 					<section class="tsd-index-section ">
 						<h3>Properties</h3>
 						<ul class="tsd-index-list">
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.gridmodules.html#adaptivemodule" class="tsd-kind-icon">Adaptive<wbr>Module</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.gridmodules.html#aggregatemodule" class="tsd-kind-icon">Aggregate<wbr>Module</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.gridmodules.html#autofillmodule" class="tsd-kind-icon">Auto<wbr>Fill<wbr>Module</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.gridmodules.html#autofitmodule" class="tsd-kind-icon">Auto<wbr>Fit<wbr>Module</a></li>
@@ -2575,6 +2579,33 @@ img {
 		</section>
 		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Properties</h2>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="adaptivemodule" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> Adaptive<wbr>Module</h3>
+				<div class="tsd-signature tsd-kind-icon">Adaptive<wbr>Module<span class="tsd-signature-symbol">:</span> <a href="_grid_types_adaptive_interfaces_d_.adaptivemoduletype.html" class="tsd-signature-type">AdaptiveModuleType</a></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1067</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Injects the adaptive (mobile) feature views and hooks into the Grid.
+						Required for <code>adaptiveSettings</code> to take effect.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>example</dt>
+						<dd><pre><code class="language-tsx">import { Grid, AdaptiveModule } from &#39;@syncfusion/react-grid&#39;;
+
+&lt;Grid
+  dataSource={employees}
+  modules={{ AdaptiveModule }}
+  adaptiveSettings={{ enabled: true }}
+/&gt;</code></pre>
+						</dd>
+					</dl>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="aggregatemodule" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagOptional">Optional</span> Aggregate<wbr>Module</h3>
