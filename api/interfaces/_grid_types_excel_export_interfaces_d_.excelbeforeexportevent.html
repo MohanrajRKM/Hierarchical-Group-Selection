@@ -2381,6 +2381,9 @@ img {
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_excel_export_interfaces_d_.excelbeforeexportevent.html#datasource" class="tsd-kind-icon">data<wbr>Source</a>
 				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_excel_export_interfaces_d_.excelbeforeexportevent.html#iscsv" class="tsd-kind-icon">is<wbr>Csv</a>
+				</li>
 			</ul>
 		</li>
 		<li class=" tsd-kind-interface tsd-parent-kind-external-module">
@@ -2512,6 +2515,7 @@ img {
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_excel_export_interfaces_d_.excelbeforeexportevent.html#columns" class="tsd-kind-icon">columns</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_excel_export_interfaces_d_.excelbeforeexportevent.html#config" class="tsd-kind-icon">config</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_excel_export_interfaces_d_.excelbeforeexportevent.html#datasource" class="tsd-kind-icon">data<wbr>Source</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_excel_export_interfaces_d_.excelbeforeexportevent.html#iscsv" class="tsd-kind-icon">is<wbr>Csv</a></li>
 						</ul>
 					</section>
 				</div>
@@ -2525,7 +2529,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">cancel<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:375</li>
+						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:382</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2545,7 +2549,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">columns<span class="tsd-signature-symbol">:</span> <a href="_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:358</li>
+						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:365</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2560,7 +2564,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">config<span class="tsd-signature-symbol">:</span> <a href="_grid_types_excel_export_interfaces_d_.excelexportsettings.html" class="tsd-signature-type">ExcelExportSettings</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:368</li>
+						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:375</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2575,13 +2579,33 @@ img {
 				<div class="tsd-signature tsd-kind-icon">data<wbr>Source<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:362</li>
+						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:369</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
 						<p>Data source for export. Can be modified before export.</p>
 					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="iscsv" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> is<wbr>Csv</h3>
+				<div class="tsd-signature tsd-kind-icon">is<wbr>Csv<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:389</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Indicates whether the current export is a CSV export.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>false</p>
+						</dd>
+					</dl>
 				</div>
 			</section>
 		</section>

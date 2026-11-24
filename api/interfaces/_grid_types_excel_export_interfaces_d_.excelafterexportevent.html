@@ -2373,6 +2373,9 @@ img {
 					<a href="_grid_types_excel_export_interfaces_d_.excelafterexportevent.html#error" class="tsd-kind-icon">error</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_excel_export_interfaces_d_.excelafterexportevent.html#iscsv" class="tsd-kind-icon">is<wbr>Csv</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_excel_export_interfaces_d_.excelafterexportevent.html#promise" class="tsd-kind-icon">promise</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
@@ -2511,6 +2514,7 @@ img {
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_excel_export_interfaces_d_.excelafterexportevent.html#config" class="tsd-kind-icon">config</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_excel_export_interfaces_d_.excelafterexportevent.html#error" class="tsd-kind-icon">error</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_excel_export_interfaces_d_.excelafterexportevent.html#iscsv" class="tsd-kind-icon">is<wbr>Csv</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_excel_export_interfaces_d_.excelafterexportevent.html#promise" class="tsd-kind-icon">promise</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_excel_export_interfaces_d_.excelafterexportevent.html#success" class="tsd-kind-icon">success</a></li>
 						</ul>
@@ -2526,7 +2530,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">config<span class="tsd-signature-symbol">:</span> <a href="_grid_types_excel_export_interfaces_d_.excelexportsettings.html" class="tsd-signature-type">ExcelExportSettings</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:405</li>
+						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:419</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2541,7 +2545,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">error<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Error</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:417</li>
+						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:431</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2551,12 +2555,32 @@ img {
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="iscsv" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> is<wbr>Csv</h3>
+				<div class="tsd-signature tsd-kind-icon">is<wbr>Csv<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:447</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Indicates whether the current export is a CSV export.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>false</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="promise" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagOptional">Optional</span> promise</h3>
 				<div class="tsd-signature tsd-kind-icon">promise<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>blobData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Blob</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:424</li>
+						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:438</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2572,7 +2596,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">success<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:411</li>
+						<li>Defined in src/grid/types/excel-export.interfaces.d.ts:425</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
